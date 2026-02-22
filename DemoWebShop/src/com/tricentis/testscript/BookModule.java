@@ -1,8 +1,13 @@
 package com.tricentis.testscript;
 
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
 public class BookModule {
-public static void main(String[] args) {
-	System.out.println("hello from samprith");
+   @Test
+	public void createbook(){
+	Reporter.log("Hello Book", true);
 }
+
 }
 
